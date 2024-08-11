@@ -1,0 +1,88 @@
+/* src/css/Home.css */
+.home-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.image-container {
+  position: relative;
+  display: inline-block;
+  text-align: right;
+  max-width: 50%;
+}
+
+.image-container img {
+  display: block;
+  width: 100%;
+  height: auto;
+  float: right;
+}
+
+.overlay-button {
+  position: absolute;
+  background-color: transparent;
+  border: none;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  transform: translate(-50%, -50%);
+}
+
+#button-1 {
+  top: 23%;
+  left: 50%;
+  padding: 12px 24px;
+}
+
+#button-2 {
+  top: 36%;
+  left: 50%;
+  padding: 12px 24px;
+}
+
+#button-3 {
+  top: 48%;
+  left: 50%;
+  padding: 12px 24px;
+}
+
+.rules-container {
+  background-color: rgba(0, 0, 0, 0.5); /* Transparent black background */
+  color: white;
+  padding: 20px;
+  max-width: 40%;
+  border-radius: 10px;
+  text-align: left;
+}
+
+.settings-popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent background */
+  padding: 20px;
+  border-radius: 8px;
+  z-index: 1000;
+}
+
+.settings-popup-content {
+  color: white;
+  text-align: center;
+}
+
+.settings-popup-content button {
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}

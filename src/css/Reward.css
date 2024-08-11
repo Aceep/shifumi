@@ -1,0 +1,34 @@
+/* src/css/Reward.css */
+.reward-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.reward-block {
+  width: 150px;
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.reward-block img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto 10px;
+}
+
+.locked-reward {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #eee;
+  color: #999;
+  font-size: 18px;
+  border-radius: 5px;
+}

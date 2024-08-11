@@ -1,0 +1,76 @@
+.ShifumiGame {
+  text-align: center;
+  padding: 20px;
+}
+
+.ShifumiGame .choices {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ShifumiGame .choice-container {
+  margin: 10px;
+  text-align: center;
+}
+
+.ShifumiGame .choice-container button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.ShifumiGame .choice-container img {
+  width: 50px;
+  height: 50px;
+}
+
+.ShifumiGame .choice-container p {
+  margin-top: 5px;
+  font-size: 16px;
+  color: #333;
+}
+
+.ShifumiGame .result p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.stats-panel {
+  background-color: rgba(0, 0, 0, 0.5); /* Black transparent background */
+  color: white;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 8px;
+  display: inline-block;
+}
+
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  border: 2px solid #4CAF50;
+  border-radius: 10px;
+  z-index: 1000;
+}
+
+.popup-content {
+  text-align: center;
+}
+
+.popup-content h3 {
+  margin-bottom: 10px;
+}
+
+.popup-content button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
